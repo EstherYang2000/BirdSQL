@@ -1,0 +1,23 @@
+# Core LLM SDKs
+openai>=1.0.0
+google-generativeai>=0.4.0
+together>=1.1.0
+
+# Environment variable loading
+python-dotenv>=1.0.0
+
+# Natural Language Processing (for evaluation/process_sql.py)
+nltk>=3.8.0
+
+# Progress bar (optional but used in examples)
+tqdm>=4.60.0
+psycopg2-binary
+func_timeout
+PyMySQL
+
+
+# Dependencies for Few-Shot Selectors
+sentence-transformers>=2.2.0 # Or latest
+scikit-learn>=1.0.0        # For cosine_similarity, euclidean_distances
+numpy>=1.20.0
+jsonlines>=3.0.0

@@ -1,0 +1,6 @@
+venv/
+bird/
+.env
+
+__pycache__/
+nltk_data/
